@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Ski: The Future of Freestyle Ski</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .banner {
+            width: 100%;
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .banner img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            opacity: 0.7;
+        }
+        .banner h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 1200px;
+        }
+        .section img {
+            width: 200px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .section:last-of-type {
+            flex-direction: row-reverse;
+        }
+        /* Subscription Section */
+        .subscription-section {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        .subscription-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        .subscription-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .subscription-form input[type="email"] {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: none;
+            font-size: 1em;
+        }
+        .subscription-form button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .subscription-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <img src="candide.jpeg" alt="Freestyle Skiing in the Mountains">
+        <h1>Eco Ski: The Future of Freestyle Ski</h1>
+    </div>
+
+    <!-- Baggy Pants Section -->
+    <div class="section">
+        <img src="pant.jpeg" alt="Baggy Ski Pants">
+        <p>
+            Discover our baggy freestyle ski pants, designed with a wide fit that combines style and functionality. 
+            Available in various colors, these pants not only offer flexibility and comfort but are also crafted with eco-friendly materials. 
+            Make a statement on the slopes while staying true to environmental values.
+        </p>
+    </div>
+
+    <!-- Eco Responsibility Section -->
+    <div class="section">
+        <img src="eco respo.jpeg" alt="Eco Friendly Badge">
+        <p>
+            Our ski pants are eco-responsible, made from sustainable materials that reduce environmental impact. 
+            With a commitment to durability and quality, these pants are crafted to last, reducing waste and promoting responsible fashion for 
+            environmentally-conscious skiers.
+        </p>
+    </div>
+
+    <!-- Subscription Section -->
+    <div class="subscription-section">
+        <h2>Stay Updated with Our Latest Collections</h2>
+        <p>Subscribe to our newsletter and be the first to know about new collections and eco-friendly ski gear.</p>
+        <form class="subscription-form">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+</body>
+</html>
